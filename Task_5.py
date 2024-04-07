@@ -15,7 +15,7 @@ def main():
       print("Your zodiac sign is Aries")
   elif (month == "April" and 30>=day >= 20) or (month == "May" and day <= 20):
       print("Your zodiac sign is Taurus")
-  elif (month == "May" and day <= 21) or (month == "June" and day <= 20):
+  elif (month == "May" and day >= 21) or (month == "June" and day <= 20):
       print("Your zodiac sign is Gemini")
   elif (month == "June" and 30>=day >= 21) or (month == "July" and day <= 22):
       print("Your zodiac sign is Cancer")
