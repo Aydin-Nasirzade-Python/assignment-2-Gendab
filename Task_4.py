@@ -2,8 +2,7 @@
 
 def main():
   a=int(input("Enter the year [ex. 2021]: "))
-  if a<0:
-      print("Invalid year!")
+  if a<0: print("Invalid year!")
   elif a%12==8:
       print(f"{a} is the year of the Dragon")
   elif a%12==9:
@@ -20,7 +19,7 @@ def main():
       print(f"{a} is the year of the Dog")
   elif a%12==3:
       print(f"{a} is the year of the Pig")
-  elif a%12==4
+  elif a%12==4:
       print(f"{a} is the year of the Rat")
   elif a%12==5:
       print(f"{a} is the year of the Ox")
