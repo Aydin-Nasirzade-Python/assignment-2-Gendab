@@ -2,7 +2,7 @@
 
 def main():
   il=int(input("Enter the year [ex. 2021]: "))
-  if a<0: print("Invalid year!")
+  if il<0: print("Invalid year!")
   elif il==2000 or (il-2000)%12==0:
       print(f"{il} is the year of the Dragon")
   elif il==2001 or (il-2001)%12==0:
